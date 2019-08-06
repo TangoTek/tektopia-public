@@ -1,0 +1,14 @@
+{
+  "homepage": "https://www.curseforge.com/minecraft/mc-mods/tektopia",
+  "1.12.2": {
+    "1.0.90": "This is my change log."
+  },
+  ...
+  "promos": {
+    "<mcversion>-latest": "<modversion>",
+    // Declare the latest "bleeding-edge" version of your mod for the given Minecraft version
+    "<mcversion>-recommended": "<modversion>",
+    // Declare the latest "stable" version of your mod for the given Minecraft version
+    ...
+  }
+}
