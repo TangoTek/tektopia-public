@@ -1,14 +1,13 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/tektopia",
   "promos": {
-	"1.12.2-latest": "1.0.96",
+	"1.12.2-latest": "1.0.92",
 	"1.12.2-recommended": "1.0.87"
   },
   "1.12.2": {
-    "1.0.96": "- Crowding checks have been enabled\n-Line2\n-Line3\n-Line2\n-Line3\n-Line2\n-Line3\n-Line2\n-Line3\n-Line2\n-Line3\n-Line2\n-Line3\n-Line2\n-Line3\n-Line2\n-Line3\n-Line2\n-Line3\n-Line2\n-Line3\n-Line2\n-Line3\n-Line2\n-Line3\n-Line2\n-Line3\n-Line2\n-Line3",
-	"1.0.90": "asdf222",
-	"1.0.87": "fasfe333"
+	"1.0.92": "### The two features marked !! are implemented but currently disabled. They will be enabled next patch (very soon).  Make your adjustments asap ###\n- !! Villager will now become unhappy with overcrowding in structures. Most structures require 12 floor tiles per villager.\n  If that ratio is not met, the villagers inside will become unhappy. Sleeping villagers are unaffected. More details will be put up on the wiki.\n- !! Villagers will also now become unhappy with low ceilings. Structures with average ceiling height lower than 2.5 air blocks will cause unhappiness.\n- Chefs now craft golden apples\n- Guards will now pick up 1 villager golden apple. If they drop below 50% health they will eat it for Regen 1 for 10 seconds and Absorption for 2 minutes\n- Added patreon promotion event at the 10th profession token purchase\n- Tons of foundation code for Patreon exclusive features post launch\n- Fixed crash with teacher teaching with books.\n- Guards will now stop attacking a target or armor stand when their hunger is below 10 instead of 0\n- Lumberjacks will see less gains in log drops as they level up. High level lumberjacks will still require less swings to down a tree, but will now receive the same percentage of logs from that tree.\n- Tweaked large oak tree chopping.  Now only logs adjacent to leaves will be broken and less buildings.\n- Skeletons converted by the necromancer have had their range halved.\n- Villagers will no longer lose hunger if the storage room isn't loaded. This should hopefully prevent some rare starvation cases",
+	"1.0.87": "- Guards will craft wooden swords again as necessary.\n- Villagers converted with a profession token will retain previous traits again (Bug from last patch)\n- Children will no longer grow up after 4-5 days worth of server ticks. Instead they will grow up after experiencing 4-5 unique days.\n- Chefs will now return the correct number of villager buckets when a non villager cake is made.\n- Villagers have developed a fear of the nether and refuse to teleport there now.\n- Guards now have a specific set of AI filters to control what gear they equip\n- Guards now consider enchantments when choosing armor and weapons. \n- Removed the condition where the Necromancer would self despawn.  If you find a way to abuse the Necro AI please let me know."
   }
   
   
-}
+}
